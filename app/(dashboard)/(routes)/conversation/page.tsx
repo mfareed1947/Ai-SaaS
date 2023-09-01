@@ -22,7 +22,7 @@ const conversationPage = () => {
   const isLoading = form.formState.isLoading;
 
   const onSubmit = async (data: z.infer<typeof formSchema>) => {
-    console.log(data);
+    console.log("🚀 ~ file: page.tsx:25 ~ onSubmit ~ data:", data)
   };
   return (
     <div>
